@@ -1,3 +1,4 @@
+
 package com.at.cache;
 import java.sql.*;
 import java.util.Map;
@@ -63,10 +64,12 @@ public class Cache {
     public static void main(String[] args) {
         addCache("");
         //removeCache("李磊");
-        System.out.println(cache.get("李雷"));
-        System.out.println(cache.get("韩梅梅"));
-        System.out.println(cache.get("韩梅梅"));
-        System.out.println(lru);
+//        System.out.println(cache.get("李雷"));
+//        System.out.println(cache.get("韩梅梅"));
+//        System.out.println(cache.get("韩梅梅"));
+//        System.out.println(lru);
+        System.out.println(cache);
+
     }
 }
 
